@@ -7,9 +7,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Posicao P;
-            P = new Posicao(3, 4);
-            Console.WriteLine("Posição: " + P);
+            Tabuleiro tab = new Tabuleiro(32,32);
+
             Console.ReadLine();
 
         }

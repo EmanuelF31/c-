@@ -10,8 +10,8 @@ namespace tabuleiro
         public int linha { get; set; }
         public int coluna { get; set; }
 
-        public Posicao(int linhja, int coluna){
-            this.linha = linhja;
+        public Posicao(int linha, int coluna){
+            this.linha = linha;
             this.coluna = coluna;   
         }
 
