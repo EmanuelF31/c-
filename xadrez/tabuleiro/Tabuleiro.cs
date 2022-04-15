@@ -10,13 +10,17 @@ namespace tabuleiro
     {
         public int linha { get; set; }
         public int colunas { get; set; }
-        private Peca [,] pecas;
+        private Peca[,] pecas;
 
         public Tabuleiro (int linha, int colunas)
         {
             this.linha = linha;
             this.colunas = colunas;
             pecas = new Peca[linha,colunas];
+        }
+        public Peca peca(int linha, int conluna)
+        {
+            return pecas[linha, conluna];
         }
     }
 }
